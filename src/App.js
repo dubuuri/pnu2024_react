@@ -4,7 +4,9 @@ import { IoHome } from "react-icons/io5";
 
 // import Hello from './01/Hello';
 // 내가 만든 component 함수는 태그가 됨 - 사용자 정의 태크
-import MyDiv from './02/MyDiv'
+// import MyDiv from './02/MyDiv'
+
+import CardMain from './03/CardMain'
 
 function App() {
   return (
@@ -22,7 +24,8 @@ function App() {
         <div className="w-full grow
                         flex flex-col justify-center items-center">
           {/* <Hello /> */}
-          <MyDiv />
+          {/* <MyDiv /> */}
+          <CardMain />
         </div>
 
         <footer className='w-full h-16
