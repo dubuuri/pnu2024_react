@@ -3,10 +3,11 @@ import './App.css';
 import { IoHome } from "react-icons/io5";
 
 // import Hello from './01/Hello';
-// 내가 만든 component 함수는 태그가 됨 - 사용자 정의 태크
 // import MyDiv from './02/MyDiv'
+// import CardMain from './03/CardMain'
+import BoxOffice from './04/BoxOffice';
 
-import CardMain from './03/CardMain'
+// 내가 만든 component 함수는 태그가 됨 - 사용자 정의 태크
 
 function App() {
   return (
@@ -25,7 +26,8 @@ function App() {
                         flex flex-col justify-center items-center">
           {/* <Hello /> */}
           {/* <MyDiv /> */}
-          <CardMain />
+          {/* <CardMain /> */}
+          <BoxOffice />
         </div>
 
         <footer className='w-full h-16

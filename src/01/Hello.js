@@ -6,8 +6,8 @@ function Hello() {
    return (
       // fragment tag
       <>
-         <div className='hellodiv'>
-            {}님 안녕하세유
+         <div className='text-slate-500'>
+            {}님 안녕하세요 !!
          </div>
          <MyCom />
       </>
