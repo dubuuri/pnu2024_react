@@ -29,7 +29,7 @@ export default function Card({ imgSrc, title, content }) {
 
          <div className="w-1/3 h-50
                          flex justify-center items-start">
-            <img src={imgSrc} />
+            <img src={imgSrc} alt={title} />
 
          </div>
 
@@ -44,13 +44,13 @@ export default function Card({ imgSrc, title, content }) {
                {content}
             </p>
 
-            <p className="w-full text-sm text-slate-900 text-right">
-               <span className="text-lg font-bold cursor-pointer"
+            <p className="w-full text-lg font-bold text-slate-900 text-right">
+               <span className="cursor-pointer"
                                 onClick={handleClick}>
                                  {/* handleClick 은 함수명 , 전달하는 인수가 없을 때는 콜백 함수 이름만 써도 됨 */}
                   🩷 좋아요
                </span>
-               <span className="text-lg font-bold ml-2">
+               <span className="ml-2">
                   {n}
                </span>
             </p>
