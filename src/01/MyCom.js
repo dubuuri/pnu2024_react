@@ -18,7 +18,7 @@ function MyCom() {
    // 컴포넌트 생성시 한번 실행
    useEffect(() => {
 
-      const timer = setInterval(() => {
+      const timer  = setInterval(() => {
          setTM(new Date())
       }, 1000);
 

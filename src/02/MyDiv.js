@@ -17,7 +17,7 @@ function MyDiv() {
          <MyDiv2 d1={n1} d2={n2} d3={n3} />
          {/* 속성명은 d1 d2 임 */}
       </div>
-   );
+   )
 }
 
 export default MyDiv;

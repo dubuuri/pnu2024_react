@@ -9,7 +9,7 @@ export default function GalCard({ galTitle, galWebImageUrl, galPhotographyLocati
 
          <div className="p-5">
 
-            <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">
+            <h5 className="mb-2 text-2xl font-bold text-gray-900">
                {galTitle}
             </h5>
 

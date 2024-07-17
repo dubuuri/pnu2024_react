@@ -22,6 +22,7 @@ export default function BoxOffice() {
       url = url + `key=${process.env.REACT_APP_MV}`;
       url = url + `&targetDt=${tmDt}`;
 
+      console.log(process.env.REACT_APP_MV);
       console.log(url);
 
       // fetch 함수를 이용하여 오픈API 데이터 불러오기
@@ -72,7 +73,7 @@ export default function BoxOffice() {
       if (tData.length === 0) return; // 이게 없으면 빈 배열이 찍힘
       console.log(tData);
       let tm = tData.map(item =>
-         <tr className="bg-white border-b hover:bg-gray-50 font-semibold hover:cursor-pointer}"
+         <tr className="bg-white border-b hover:bg-gray-50 font-semibold hover:cursor-pointer"
             onClick={() => handleSelMv(item)} key={item.movieCd}>
             <th scope="row" className="px-6 py-2 font-medium text-gray-900 whitespace-nowrap">
                {item.rank}

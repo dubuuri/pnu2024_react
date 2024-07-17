@@ -36,7 +36,7 @@ export default function Card({ imgSrc, title, content }) {
          <div className="w-2/3 h-50 ml-5
                          flex flex-col justify-between items-start">
 
-            <p className="text-2xl font-bold text-blue-900">
+            <p className="flex justify-start text-2xl font-bold text-blue-900">
                {title}
             </p>
 
@@ -44,7 +44,7 @@ export default function Card({ imgSrc, title, content }) {
                {content}
             </p>
 
-            <p className="w-full text-lg font-bold text-slate-900 text-right">
+            <p className="w-full flex justify-end text-lg font-bold text-slate-900 text-right">
                <span className="cursor-pointer"
                                 onClick={handleClick}>
                                  {/* handleClick 은 함수명 , 전달하는 인수가 없을 때는 콜백 함수 이름만 써도 됨 */}
